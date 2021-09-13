@@ -3,8 +3,147 @@
     <head>
         <title>HRM</title>
       <link rel="stylesheet" type="text/css" href="style.css" />  
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+        crossorigin="anonymous"/>
     </head>
     <body>
-        <h1>HRM</h1>
+<div id="container">        
+    <div id="sideNavbar">
+        <img src="images/HRMLOGO.png" />
+        <div class="menu1">
+            <h2>Tools</h2>
+            <ul class="mainmenu">
+                <li><a href=""><i class="fas fa-columns"></i>Dashboard</a></li>
+                <li><a href=""><i class="fab fa-buffer"></i>Offers</a></li>
+                <li><a href=""><i class="fas fa-user"></i>People</a></li>
+                <li><a href=""><i class="fas fa-columns"></i>Statistics</a></li>
+                <li><a href=""><i class="fas fa-file-alt"></i>Documents</a></li>
+            </ul>
+        </div>
+        <div class="menu2">
+            <h2>Other</h2>
+            <ul class="mainmenu">
+                <li><a href=""><i class="far fa-comment-alt"></i>Chat</a></li>
+                <li><a href=""><i class="fas fa-info-circle"></i>Support</a></li>
+                <li><a href=""><i class="fas fa-calendar-alt"></i>Calendar</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="Dashboard">
+        <h1>Dashboard</h1>
+        <div class="input">
+           <i class="fas fa-search">&nbsp;&nbsp;&nbsp;Search</i>
+            <input type="text"/>
+        </div>
+        <div class="clear"></div> 
+        <div class="empRecord">
+            <div class="totalEmp">
+                <h2>Total Employees</h2>
+                <div class="fl tEmp"><b>352</b></div>
+                <div class="fr tper">+15%</div>
+            </div>
+            <div class="empleave">
+                <h2>Number of leave</h2>
+                <div class="fl tEmp">24</div>
+                <div class="fr lper">-10%</div>
+            </div>
+            <div class="newEmp">
+                <h2>New Employees</h2>
+                <div class="fl tEmp">27</div>
+                <div class="fr newper">+12%</div>
+            </div>
+            <div class="happRate">
+                <h2>Happinnes rate</h2>
+                <div class="fl tEmp">80%</div>
+                <div class="fr rateper">-12%</div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="barchart">
+            <div class="circleChart">
+                <h2>Working format</h2>
+                <div class="container"> 
+                    <div class="card">    
+                        <div class="percent">
+                            <svg>
+                                <circle cx="80" cy="80" r="50"></circle>
+                                <circle cx="80" cy="80" r="50"></circle>
+                            </svg>
+                            <div class="number">
+                                <h3>Total<br/><span>328</span></h3>
+                            </div>
+                        </div>
+                        <h4 class="remote fl">Remote</h4>
+                        <h4 class="onSite fr">On site</h4>
+                    </div>
+                </div> 
+            </div>
+            <div class="lineChart">
+                <h2>Project employement</h2>
+                <div class="columnChart">
+                    <div class="bar" cx="80" cy="80"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <ul>
+                        <li>300</li>
+                        <li>200</li>
+                        <li>100</li>
+                        <li>0</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="requests">
+                <h2>Requests</h2>
+                <div>
+                    <ul class="reqMenu">
+                        <li><a href="">Profile update<span>9</span></a></li>
+                        <li><a href="">Busines trip <span>2</span></a></li>
+                        <li><a href="">Vacation <span>16</span></a></li>
+                        <li><a href="">Sick leave <span>5</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="progress">
+            <div class="turnOver">
+                <h2>Staff turnover</h2>
+            </div>
+            <div class="recrProg">
+                <h2 class="fl">Recruitment progress</h2>
+                <a class="fr" href="">View all</a>
+                <div class="clear"></div>
+                <div class="recruitmentprog">
+                    <div class="fname">
+                        <h4>Full name</h4>
+                        <ul>
+                            <li><a href="">Leo Myers</a></li>
+                            <li><a href="">Ann Fields</a></li>
+                            <li><a href="">Eric Olson</a></li>
+                        </ul>
+                    </div>
+                    <div class="depart">
+                        <h4>Department</h4>
+                        <ul>
+                            <li><a href="">Devops</a></li>
+                            <li><a href="">UX/UI Designer</a></li>
+                            <li><a href="">.Net developer</a></li>
+                        </ul>
+                    </div>
+                    <div class="type">
+                        <h4>Type</h4>
+                        <ul>
+                            <li><a href="">Tech interview</a></li>
+                            <li><a href="">Resume review</a></li>
+                            <li><a href="">Final interview</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>       
+        
     </body>
 </html>

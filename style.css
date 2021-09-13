@@ -1,0 +1,106 @@
+body {margin:0px; padding:0px; font-family: arial;}
+#sideNavbar { float:left; width:16%; margin-left:30px; background: white;}
+#sideNavbar img {height:45px; margin-top:35px;}
+.menu1 {margin-top:35px;}
+.menu1  h2 {font-size:15px; font-family: arial; color:#a6b7cf;}
+.menu2  h2 {font-size:15px; font-family: arial; color:#a6b7cf;}
+.mainmenu {list-style-type: none; margin:0px; padding:0px; margin-left:6px;}
+.mainmenu li {padding:10px 0px;}
+.mainmenu li a {text-decoration: none; color:#a6b7cf; font-family: arial; font-size:18px; font-weight: normal;}
+.mainmenu li a:hover {background: #f6f8fc; color:black; padding:10px 40px 10px 20px; border-radius:10px;}
+.mainmenu li a .fas,.fab {color:#a6b7cf;}
+
+.mainmenu li a:hover>.fas {color:#6126ef;}
+.mainmenu li a:hover>.fab {color:#6126ef;}
+.mainmenu li a:hover>.far {color:#6126ef;}
+
+.mainmenu .fas {margin:0px 20px 0px 0px;}
+.mainmenu .fab {margin:0px 20px 0px 0px;}
+.mainmenu .far {margin:0px 20px 0px 0px;}
+
+.menu2 {margin-top:40px;}
+
+#Dashboard {float:right; width:80%; background:#f8f9fd;}
+#Dashboard h1 {float:left; width:40%; margin-left:40px; font-family: arial; font-size:25px; margin-top:60px;}
+#Dashboard .input {float:right; width:50%; margin-top:48px;}
+.input {position:relative;}
+.input input { padding:13px; width:84%; border-radius:25px; border:none;}
+.input .fas {position:absolute;  left:14px; top:12px; color:#b4bbc9; }
+
+.empRecord {margin-left: 32px;}
+.empRecord h2 { font-family: arial; font-size:16px; text-align:center;}
+.totalEmp {float:left; padding:10px; margin:10px; width:20%; background: white; border-radius:19px;}
+.empleave {float:left; padding:10px; margin:10px; width:20%; background: white; border-radius:19px;}
+.newEmp {float:left; padding:10px; margin:10px; width:20%; background: white; border-radius:19px;}
+.happRate {float:left; padding:10px; margin:10px; width:20%; background: white; border-radius:19px;}
+
+.tEmp {font-size:25px; margin-left:42px; font-weight:bold;}
+.tper {color:#2da694; margin-top:8px; margin-right:24px;}
+.lper {color:#d95e5e; margin-top:8px; margin-right:24px;}
+.newper {color:#2da694; margin-top:8px; margin-right:24px;}
+.rateper {color:#d95e5e; margin-top:8px; margin-right:24px;}
+
+.barchart {margin-left:44px; margin-top:20px; }
+.circleChart {float:left; width:22%; background: white; text-align: center; border-radius: 19px;}
+.circleChart h2 {font-size:18px; margin-top:30px;}
+.lineChart {float:left;width:46%; background: white; margin-left:22px;  border-radius: 19px;}
+.requests h2 {margin-left: 25px; font-size: 19px; margin-top: 30px;}
+.requests {float:left; width:22%; background: white;  margin-left:22px;  border-radius: 19px;}
+
+.container {position: relative;}
+
+.percent .number {position:absolute; top:55px; left:0; width:100%; height:100%;}
+.number h3 {color:gray; font-size:15px;}
+.number span {color:black; font-weight: bold;}
+svg {margin-left:25px; }
+svg circle {width:100%; height:100%; fill:none; stroke:#e2d4ff;
+stroke-width: 12; stroke-linecap: 10; transform: translate(5px,5px);}
+
+svg circle:nth-child(2)
+{
+    stroke-dasharray: 220;
+    stroke-dashoffset: 220;
+}
+.card:nth-child(1) svg circle:nth-child(2){
+    stroke:#6226f1;
+}
+
+.remote {margin-left:40px;}
+.onSite {margin-right:40px;}
+
+
+.columnChart {position: relative;}
+.columnChart ul {list-style-type:none;}
+.bar {stroke:black; stroke-width:10; stroke-linecap: 10; width:100%; height:100%;}
+
+
+.reqMenu {list-style-type:none; margin:0px; padding:0px;}
+.reqMenu li {padding:16px; border-bottom:1px solid #f8f9fd; margin:0px 10px; }
+.reqMenu li a {text-decoration:none; color:black;}
+.reqMenu span {float:right; font-weight: bold; margin-right:0px;}
+
+
+.turnOver {width:48%; background:white; float:left; margin:10px;}
+.recrProg h2 {margin-left:30px; font-size:20px; margin-top:25px;}
+.recrProg a {text-decoration:none; margin:20px; margin-top:28px;}
+.recrProg {width:44%; background: white; float:left; margin:10px; border-radius:19px;}
+
+.recruitmentprog h4 {color:#9ba1a9; font-size:12px; margin-left:30px;}
+.fname {float:left; width:30%; margin-left:18;}
+.fname ul {list-style-type:none; margin:0px; padding:0px;}
+.fname ul li{padding:10px;}
+.fname li a {text-decoration:none; font-size:14px;}
+
+.depart {float:left; width:35%;}
+.depart ul {list-style-type:none; margin:0px; padding:0px;}
+.depart ul li{padding:10px;}
+.depart li a {text-decoration:none; font-size:14px;}
+
+.type {float:left; width:35%;}
+.type ul {list-style-type:none; margin:0px; padding:0px;}
+.type ul li{padding:10px;}
+.type li a {text-decoration:none; font-size:14px;}
+
+.clear {clear:both;}
+.fl {float:left;}
+.fr {float:right;}
